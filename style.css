@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:"Easy-Font";
+    src:url("fonts/Bellerose.ttf");
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway";
+}
+
+.wrapper{
+    width: 1170px;
+}
+
+
+
+
+/* ------------- header design ----------- */
+.header{
+    display: flex;
+}
+.header .logo{}
+.header .logo a{}
+.header .logo a img{}
+
+.header .menu{
+    width: 100%;
+}
+.header .menu ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+}
+.header .menu ul li{}
+.header .menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px; 
+    display: block;
+}
+
+.header .menu ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.header .menu ul li a i{
+    margin-right: 5px;
+}
+/* Contact Us Design */
+.contact-us{
+    margin-top: 50px;
+}
+.contact-us .address-form{
+    display: flex;
+}
+
+.contact-us .address-form .address{
+    width: 50%;
+}
+.contact-us .address-form .address h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.contact-us .address-form .address p{
+    margin-bottom: 5px;
+}
+
+.contact-us .address-form .form{
+    width: 50%;
+}
+.contact-us .address-form .form input{
+    display: block;
+    width: 70%;
+    margin: 8px 0px;
+    padding:10px;
+    outline: none;
+}
+.contact-us .address-form .form textarea{
+    display: block;
+    width: 70%;
+    margin: 8px 0px;
+    padding:10px;
+    resize: none;
+    height: 110px;
+    outline: none;
+}
+.contact-us .address-form .form button{
+    padding:10px 25px;
+}
+
+
+.contact-us .google-map{
+    margin-top: 40px;
+    height: 300px;
+    margin-bottom: 60px;
+}
